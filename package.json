@@ -11,7 +11,7 @@
   },
   "scripts": {
     "serve": "npx @11th/eleventy --serve",
-    "build": "npx @11th/eleventy"
+    "build": "env NODE_ENV=production npx eleventy --pathprefix 'orkanens-se'"
   },
   "keywords": [],
   "author": "",
