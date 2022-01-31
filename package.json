@@ -1,0 +1,19 @@
+{
+  "name": "orkanens-se",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "eleventy-plugin-sass": "^1.2.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  },
+  "scripts": {
+    "serve": "npx @11th/eleventy --serve",
+    "build": "npx @11th/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
